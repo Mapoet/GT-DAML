@@ -11,7 +11,7 @@ from urllib3.util.retry import Retry
 import http.client,copy
 username_whu='anonymous'
 password_whu='xxxx'
-iprocs=20
+iprocs=2
 exitFlag=0
 tasks=[]
 lock = threading.Lock()
